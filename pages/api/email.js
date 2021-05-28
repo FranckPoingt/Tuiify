@@ -15,7 +15,7 @@ export default function (req, res) {
     host: "smtp.gmail.com",
     auth: {
       user: 'contact.tuiify@gmail.com',
-      pass: process.env.password
+      pass: process.env.NEXT_PUBLIC_PASSWORD
     },
     secure: true
   });
