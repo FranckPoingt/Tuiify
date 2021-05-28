@@ -1,0 +1,20 @@
+.image {
+    max-height: 110px;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.title {
+    font-weight: bold;
+    color: #f05454;
+    
+}
+
+.cardBody {
+    background-color: #2228311c ;
+}
+
+.card {
+    border: none;
+    box-shadow: 5px 8px 8px #888888;
+}

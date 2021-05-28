@@ -1,0 +1,50 @@
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color:#222831;
+    font-family: 'Spartan', sans-serif;
+    
+}
+
+.main {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2vh;
+    // margin: 2vh;
+    font-size: 22px;
+    // font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
+    h1 {
+      font-family: 'Spartan', sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.15rem;
+    }
+  }
+
+.footer {
+    width: 100%;
+    height: 75px;
+    padding: 5vh;
+    border-top: 1px solid #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footlogo {
+    vertical-align: 10px;
+}
+
+@media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+

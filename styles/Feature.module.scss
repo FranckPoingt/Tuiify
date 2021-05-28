@@ -1,0 +1,20 @@
+.row {
+    padding-bottom: 10px;
+}
+
+.credits {
+    font-size: .5vh;
+    color: transparent;
+    text-decoration: none;
+}
+
+.cont {
+    &:nth-of-type(2n) {
+        direction: rtl;
+    }
+}
+
+.para{
+    padding-left: 4%;
+    padding-top: 4%;
+}

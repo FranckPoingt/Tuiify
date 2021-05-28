@@ -1,0 +1,50 @@
+// .imgCard {
+//     opacity: 99%;
+//     filter: blur(2px);
+// }
+
+.card {
+    margin: 0vh;
+    background-color: rgba(255, 255, 255, 0.26);
+    width: 200px;
+    height: 100px;
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+.cardMotion {
+    margin: 2vh;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.cardTitle {
+    padding-top: 10px;
+    padding-left: 10px;
+    color: #f05454;
+    font-size: 25px;
+    
+    
+}
+
+.cardBody {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.icon {
+    padding-left: 5px;
+    vertical-align: 1px;
+}
+
+.a {
+    color: inherit;
+    text-decoration: inherit;
+}
+.a:hover {
+    text-decoration: inherit;
+    color: inherit;
+}

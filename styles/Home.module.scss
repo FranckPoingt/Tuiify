@@ -1,0 +1,54 @@
+// .main {
+//   padding: 5rem 0;
+//   flex: 1;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3.5rem;
+  font-family: 'Spartan', sans-serif;
+  font-weight: 900;
+}
+
+.logo {
+  height: 1em;
+  filter: invert(47%) sepia(55%) saturate(3108%) hue-rotate(329deg) brightness(98%) contrast(93%);
+  vertical-align: -15px;
+}
+
+.top {
+  text-align: center;
+  margin-bottom: 7vh;
+}
+
+// .cards {
+//   margin-top: 10vh;
+//   display: flex;
+//   flex-wrap: wrap;
+//   align-items: center;
+// }
+
+.card {
+  margin: 2vh;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.feature {
+  margin-bottom: 4%;
+}
+
+.credits {
+  font-size: .5vh;
+  color: transparent;
+  text-decoration: none;
+  
+}
+
