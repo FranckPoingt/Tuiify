@@ -29,9 +29,9 @@ export default function Home() {
         />
         <Feature 
           img="/browser.svg"
-          credits=""
+          credits={<div>I don't remember, sorry</div>}
           title="Control"
-          bodyTxt="Keep total control on your Website/Webapp by letting me code it from scratch using Next.js, React, Node.js or Java, SQL or NoSQL"
+          bodyTxt="Keep total control on your Website / Webapp by letting me code it from scratch using Next.js, React, Node.js or Java, SQL or NoSQL"
           rot={-360}
           del={.5}
         />
@@ -54,7 +54,7 @@ export default function Home() {
       </section>
       <Container>
         <div className={styles.cards}>
-          <ul className="card-list d-grid">
+          <ul className="card-list d-grid" style={{paddingLeft: "0px"}}>
             <Row>
               <Col>
                   <SimpleCard

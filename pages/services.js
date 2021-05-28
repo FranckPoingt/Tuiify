@@ -31,7 +31,7 @@ export default function Services() {
                         </Row>
                         <div className={style.dev}>
                         <Row className="row-cols-auto">
-                            <Col className="col-lg-3 text-center">
+                            <Col className="col-lg-3 text-center" md={12} style={{marginBottom: "8vh", marginTop: "8vh"}}>
                             <Row className={style.imgRow}>
                                 <Image src="/responsive.svg" alt="code image" width={100} height={100} />
                             </Row>
@@ -45,7 +45,7 @@ export default function Services() {
                                     <p>Building the interface of your website (Front-End), static or dynamic using React.js.</p>
                                 </Row>
                             </Col>
-                            <Col className="col-lg-3 text-center">
+                            <Col className="col-lg-3 text-center" md={12} style={{marginBottom: "8vh", marginTop: "8vh"}}>
                             <Row className={style.imgRow}>
                                 <Image src="/api.svg" alt="code image" width={100} height={100} />
                             </Row>
@@ -61,7 +61,7 @@ export default function Services() {
                                     </p>
                                 </Row>
                             </Col>
-                            <Col className="col-lg-3 text-center">
+                            <Col className="col-lg-3 text-center" md={12} style={{marginBottom: "8vh", marginTop: "8vh"}}>
                                 <Row className={style.imgRow}>
                                     <Image src="/shop.svg" alt="code image" width={100} height={100} />
                                 </Row>
@@ -75,7 +75,7 @@ export default function Services() {
                                     <p>Bringing your shop online with Shopify. <br/> Designing and/or setting up your Shopify platform to start selling more products online easy peasy.<br/> If you need something more custom we can use Commerce.js</p>
                                 </Row>
                             </Col>
-                            <Col className="col-lg-3 text-center">
+                            <Col className="col-lg-3 text-center" md={12} style={{marginBottom: "8vh", marginTop: "8vh"}}>
                             <Row className={style.imgRow}>
                                 <Image src="/engineering.svg" alt="code image" width={100} height={100} />
                             </Row>
