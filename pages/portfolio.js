@@ -21,7 +21,7 @@ export default function Portfolio() {
                     </Col>
                     <Col className={style.contain}>
                         <PortfolioCard 
-                            img="/macavelogo.png"
+                            img="/macavelogo.webp"
                             title={<a href="https://www.macaveabieres.com" target="_blank" aria-label="My beer cellar" className={style.linkStyle}>Ma Cave à Bières</a>}
                             bodyTxt="My Beer Cellar in english is my first PWA made in React. It's a personal project that I keep improving."
                         />
