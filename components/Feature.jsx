@@ -8,9 +8,9 @@ export default function Feature({img, credits, title, bodyTxt, rot, del}) {
 
 
     return (
-        <Container className={`${styles.cont} col-5`} fluid="md">
+        <Container className={`${styles.cont} col-8 col-lg-5 `} fluid="md">
             <Row className={`flex-row ${styles.row}`}>
-                <Col className={`col-auto ${styles.img}`}>
+                <Col className={`${styles.img}`}>
                     <motion.div initial={{ scale: 0 }} animate={{ rotate: rot, scale: 1 }}
                         transition={{
                         type: "spring",

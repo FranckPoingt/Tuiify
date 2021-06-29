@@ -13,12 +13,12 @@
     text-align: center;
     margin: 0;
     padding: 4vh;
-    padding-right: 25vw;
-    padding-left: 25vw;
+    padding-right: 5vw;
+    padding-left: 5vw;
     overflow: hidden;
     &:nth-of-type(2n) {
-        padding-left: 25vw;
-        padding-right: 25vw;
+        padding-left: 5vw;
+        padding-right: 5vw;
         background-color: #2228319c ;
         color: #dddddd;
         box-shadow: 0 8px 6px -6px #2228319c;

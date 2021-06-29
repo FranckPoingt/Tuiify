@@ -8,3 +8,13 @@
 .cardDeck {
     margin-top: 4vh;
 }
+
+.linkStyle {
+    text-decoration: none;
+    color: inherit;
+}
+
+.linkStyle:hover {
+    color: inherit;
+    font-size: 1.3rem;
+}
